@@ -405,6 +405,18 @@ CONTENT_OPS_ROOT=examples python3 scripts/first_day_metrics.py >/dev/null && ech
 
 ---
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=amenouta2001%2Fcontentops-loop&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=amenouta2001/contentops-loop&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=amenouta2001/contentops-loop&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=amenouta2001/contentops-loop&type=date&legend=top-left" />
+ </picture>
+</a>
+
+---
+
 ## License
 
 MIT —— 见 [LICENSE](LICENSE)。
