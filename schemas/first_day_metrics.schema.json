@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://content-ops-loop.local/schemas/first_day_metrics.schema.json",
+  "title": "首日三指标 + 题材池子表 (first_day_metrics.py --json / reports/首日指标.json)",
+  "description": "scripts/first_day_metrics.py 的结构化输出（--json <path> 落盘，cron 里也写入 reports/首日指标.json）。口径 = 首日曝光 / 首日阅读 / 首日CTR，不用累计 CTR 判断健康度。字段名与类型按真实代码与真实运行输出对齐，未凭空添加字段。中位数来自 statistics.median，样本为空时返回 null（故 summary 与 med_first_show_stable 标为可空）。",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "description": "用哪天的快照算的（快照目录里最新的 YYYY-MM-DD）。"
+    },
+    "rows": {
+      "type": "array",
+      "description": "每篇一行，按发布日 pub_date 倒序（新→旧）。只含发布日在快照史之内、能还原首日的篇。",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pub_date": {
+            "type": "string",
+            "description": "发布日 YYYY-MM-DD（取快照里的 show_date）。"
+          },
+          "title": {"type": "string", "description": "标题（已 strip）。"},
+          "topic": {
+            "type": "string",
+            "description": "题材族名，来自 config/vertical.json 的关键词规则；未命中为「其他」。"
+          },
+          "first_show": {
+            "type": ["integer", "null"],
+            "description": "首日曝光。首选 traffic.daily 的发布日桶 impression；否则取发布当日/后续首个非零快照的累计 show。接口缺字段时为 null。"
+          },
+          "first_read": {
+            "type": ["integer", "null"],
+            "description": "首日阅读，来源同 first_show。"
+          },
+          "first_ctr": {
+            "type": "number",
+            "description": "首日CTR%（first_read/first_show*100，保留 2 位；first_show 为 0/null 时取 0）。"
+          },
+          "total_show": {
+            "type": "integer",
+            "description": "截至最新快照的累计展现（仅参考）。"
+          },
+          "total_read": {
+            "type": "integer",
+            "description": "截至最新快照的累计阅读（仅参考）。"
+          },
+          "total_ctr": {
+            "type": "number",
+            "description": "累计 CTR%（ctr_calc），仅存档。"
+          },
+          "src": {
+            "type": "string",
+            "description": "首日数据来源标记：traffic（官方日桶命中发布日）| traffic首条（未命中取 daily 首条）| 快照YYYY-MM-DD | 快照YYYY-MM-DD(后续)。"
+          }
+        },
+        "required": [
+          "pub_date",
+          "title",
+          "topic",
+          "first_show",
+          "first_read",
+          "first_ctr",
+          "total_show",
+          "total_read",
+          "total_ctr",
+          "src"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "pool": {
+      "type": "array",
+      "description": "题材池子表，按「剔爆款后首日曝光中位」降序（池子大小序）。首日曝光 >= viral_show(5000) 的爆款级样本不参与稳定池中位。",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {"type": "string", "description": "题材族名。"},
+          "n": {"type": "integer", "description": "该题材样本数（含爆款）。"},
+          "n_stable": {"type": "integer", "description": "剔除爆款后的样本数。"},
+          "med_first_show": {
+            "type": "number",
+            "description": "该题材首日曝光中位（含爆款）。"
+          },
+          "med_first_show_stable": {
+            "type": ["number", "null"],
+            "description": "剔除爆款后首日曝光中位；稳定池为空时为 null（即「爆款污染」）。"
+          },
+          "med_first_read": {"type": "number", "description": "首日阅读中位（含爆款）。"},
+          "med_first_ctr": {"type": "number", "description": "首日CTR中位（含爆款）。"},
+          "risk": {
+            "type": "string",
+            "description": "备注：空串 | 单篇（n=1） | 含爆款 | 爆款污染（稳定池被爆款占满）。",
+            "enum": ["", "单篇", "含爆款", "爆款污染"]
+          }
+        },
+        "required": [
+          "topic",
+          "n",
+          "n_stable",
+          "med_first_show",
+          "med_first_show_stable",
+          "med_first_read",
+          "med_first_ctr",
+          "risk"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "summary": {
+      "type": "object",
+      "description": "汇总指标。中位数在样本为空时为 null。",
+      "properties": {
+        "n": {"type": "integer", "description": "可比样本篇数（= len(rows)）。"},
+        "med5_first_show": {
+          "type": ["number", "null"],
+          "description": "最近 5 篇首日曝光中位。"
+        },
+        "med30_first_show": {
+          "type": ["number", "null"],
+          "description": "最近 30 天首日曝光中位。"
+        },
+        "med5_first_ctr": {
+          "type": ["number", "null"],
+          "description": "最近 5 篇首日CTR中位。"
+        },
+        "med30_first_ctr": {
+          "type": ["number", "null"],
+          "description": "最近 30 天首日CTR中位。"
+        },
+        "pass14_rate": {
+          "type": ["number", "null"],
+          "description": "近 14 天首日CTR >= 过线值(own_pass_ctr) 的过线率（%）；无样本为 null。"
+        },
+        "ctr6_count": {
+          "type": "integer",
+          "description": "近 14 天首日CTR >= 6% 的篇数。"
+        },
+        "n14": {"type": "integer", "description": "近 14 天的样本篇数。"}
+      },
+      "required": [
+        "n",
+        "med5_first_show",
+        "med30_first_show",
+        "med5_first_ctr",
+        "med30_first_ctr",
+        "pass14_rate",
+        "ctr6_count",
+        "n14"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": ["date", "rows", "pool", "summary"],
+  "additionalProperties": false
+}

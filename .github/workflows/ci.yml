@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: tests (py${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # The core has no third-party dependencies. cryptography is an OPTIONAL extra
+      # (credential vault); installing it only makes the vault tests run instead of skip.
+      - name: Install optional extras (vault tests)
+        run: python -m pip install --upgrade pip cryptography
+
+      # 这两个检查放在 tools/ 里（而不是内嵌在 yml 中）：内嵌脚本没法在本地逐个
+      # Python 版本上跑，曾经因此把 3.9 上没有的 API 和内建模块 math 误判成第三方库。
+      - name: Core imports no third-party modules
+        run: python tools/check_core_imports.py
+
+      - name: Compile
+        run: python -m compileall -q scripts tests
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Demo smoke test (zero credentials, no network)
+        run: |
+          CONTENT_OPS_ROOT=examples python scripts/doctor.py --init
+          CONTENT_OPS_ROOT=examples python scripts/first_day_metrics.py
+          CONTENT_OPS_ROOT=examples python scripts/vertical.py
+          python scripts/topic_taxonomy.py "我家橘猫半夜踩脸，一夜没睡好"
+
+      - name: Exit-code contract
+        run: |
+          set +e
+          export HOME="$(mktemp -d)"
+          unset TYPESAFE_API_KEY
+          CONTENT_OPS_ROOT="$(mktemp -d)" python scripts/fetch_tt_stats.py   >/dev/null 2>&1; a=$?
+          CONTENT_OPS_ROOT="$(mktemp -d)" python scripts/first_day_metrics.py >/dev/null 2>&1; b=$?
+          CONTENT_OPS_ROOT="$(mktemp -d)" python scripts/phone_ctl.py        >/dev/null 2>&1; c=$?
+          set -e
+          echo "fetch_tt_stats(no cookie)=$a  expect 10"
+          echo "first_day_metrics(no data)=$b expect 40"
+          echo "phone_ctl(no PHONE_IP)=$c    expect 50"
+          [ "$a" = "10" ] && [ "$b" = "40" ] && [ "$c" = "50" ]
+
+  leak-scan:
+    name: credential leak scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan the tree for credential-shaped content
+        run: python tools/scan_credentials.py
+
+      - name: Repository must not contain a credential vault or env file
+        run: |
+          if git ls-files | grep -Ei '(^|/)(secrets\.vault\.json|\.env$|.*\.key$|.*\.pem$)'; then
+            echo "::error::A credential file is tracked by git."
+            exit 1
+          fi
+          echo "OK: no credential files tracked"

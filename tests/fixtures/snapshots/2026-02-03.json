@@ -1,0 +1,87 @@
+{
+ "date": "2026-02-03",
+ "articles": [
+  {
+   "item_id": "1001",
+   "title": "橘猫半夜踩脸睡不好",
+   "item_status": 20,
+   "publish_time": 1769896800,
+   "show_date": "2026-02-01",
+   "show": 460,
+   "read": 34,
+   "ctr_calc": 7.39,
+   "traffic": {
+    "daily": [
+     {"date": "2026-02-01", "impression": 350, "read": 28},
+     {"date": "2026-02-02", "impression": 50, "read": 2}
+    ]
+   }
+  },
+  {
+   "item_id": "1002",
+   "title": "猫砂要这样选才对",
+   "item_status": 20,
+   "publish_time": 1769925600,
+   "show_date": "2026-02-01",
+   "show": 530,
+   "read": 43,
+   "ctr_calc": 8.11,
+   "traffic": null
+  },
+  {
+   "item_id": "1003",
+   "title": "猫粮换牌子终于肯吃",
+   "item_status": 20,
+   "publish_time": 1769896800,
+   "show_date": "2026-02-01",
+   "show": 215,
+   "read": 14,
+   "ctr_calc": 6.51,
+   "traffic": null
+  },
+  {
+   "item_id": "1004",
+   "title": "狗子拆家那天我站了很久",
+   "item_status": 20,
+   "publish_time": 1769983200,
+   "show_date": "2026-02-02",
+   "show": 950,
+   "read": 85,
+   "ctr_calc": 8.95,
+   "traffic": null
+  },
+  {
+   "item_id": "1005",
+   "title": "遛狗它突然不肯走",
+   "item_status": 20,
+   "publish_time": 1770069600,
+   "show_date": "2026-02-03",
+   "show": 300,
+   "read": 20,
+   "ctr_calc": 6.67,
+   "traffic": null
+  },
+  {
+   "item_id": "1006",
+   "title": "遛狗它突然不肯走",
+   "item_status": 20,
+   "publish_time": 1770069600,
+   "show_date": "2026-02-03",
+   "show": 100,
+   "read": 8,
+   "ctr_calc": 8.0,
+   "traffic": null
+  },
+  {
+   "item_id": "1007",
+   "title": "金毛第一次坐电梯夹着尾巴",
+   "item_status": 20,
+   "publish_time": 1770069600,
+   "show_date": "2026-02-03",
+   "show": 6000,
+   "read": 300,
+   "ctr_calc": 5.0,
+   "traffic": null
+  }
+ ]
+}

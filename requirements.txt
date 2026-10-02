@@ -1,0 +1,19 @@
+# ContentOps Loop — dependencies
+#
+# The deterministic core (measurement, diagnosis, taxonomy, benchmarking, replay
+# framework, credential vault API) runs on the Python standard library alone.
+# There is nothing to install to run the demo or the test suite:
+#
+#     CONTENT_OPS_ROOT=examples python3 scripts/first_day_metrics.py
+#     python3 -m unittest discover -s tests -v
+#
+# The packages below are OPTIONAL extras. Each feature that needs one degrades
+# gracefully (clear message + exit code 50) when it is missing.
+
+# Credential vault (scripts/secretctl.py, scripts/secrets_env.py).
+# Only needed if you want to store real credentials encrypted.
+cryptography>=41.0
+
+# Image brightness helper inside scripts/phone_ctl.py (optional Android integration).
+Pillow>=10.0
+numpy>=1.24

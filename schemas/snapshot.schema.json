@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://content-ops-loop.local/schemas/snapshot.schema.json",
+  "title": "头条号每日数据快照 (reports/tt_snapshots/YYYY-MM-DD.json)",
+  "description": "scripts/fetch_tt_stats.py 每天落盘一份的快照结构（只存事实、不存结论）。字段名与类型完全按真实代码 scripts/fetch_tt_stats.py 与真实样例 examples/reports/tt_snapshots/*.json 对齐，未凭空添加字段。可空字段（traffic / property / item_info 只在最近 DEEP_N=12 篇才有）用 [\"object\",\"null\"] 表示；income / income_rpm 只有接口返回该篇收益时才会出现，因此不列入 required。",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "description": "快照日期，YYYY-MM-DD，与文件名一致（脚本用 datetime.date.today().isoformat() 生成）。"
+    },
+    "articles": {
+      "type": "array",
+      "description": "当天从列表接口拉到的全部条目（含 item_status != 20 的非已发布条目）。",
+      "items": {
+        "type": "object",
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "description": "平台内容 ID（API 的 gidStr）；本仓库示例用 9 开头的合成号段。"
+          },
+          "title": {
+            "type": "string",
+            "description": "标题。"
+          },
+          "item_status": {
+            "type": ["integer", "null"],
+            "description": "平台内容状态；20 = 已发布（首日指标/池子表只统计 20）。代码直接取 ab.get('itemStatus') 无默认值，接口未返回时为 null。"
+          },
+          "publish_time": {
+            "type": "integer",
+            "description": "发布时刻，秒级时间戳（默认 0）。发布晚于 12:00 时首日窗口取次日。"
+          },
+          "create_time": {
+            "type": "integer",
+            "description": "创建时刻，秒级时间戳（默认 0）。"
+          },
+          "read": {
+            "type": "integer",
+            "description": "截至本次快照的【累计】阅读数（默认 0）。"
+          },
+          "show": {
+            "type": "integer",
+            "description": "截至本次快照的【累计】展现量（默认 0）。"
+          },
+          "digg": {
+            "type": "integer",
+            "description": "累计点赞数（默认 0）。"
+          },
+          "comment": {
+            "type": "integer",
+            "description": "累计评论数（默认 0）。"
+          },
+          "repin": {
+            "type": "integer",
+            "description": "累计收藏（转发）数（默认 0）。"
+          },
+          "show_date": {
+            "type": "string",
+            "description": "发布日 YYYY-MM-DD，由 publish_time 换算；publish_time 为 0 时为空字符串。首日窗口的锚点。"
+          },
+          "ctr_calc": {
+            "type": "number",
+            "description": "累计 CTR%（read/show*100，show 为 0 时取 0）。仅存档，不用于判断健康度。"
+          },
+          "income": {
+            "type": "object",
+            "description": "该篇累计收益（单位：分）。接口未返回该篇收益时整个字段缺失（故不在 required 内）。",
+            "properties": {
+              "income_fen": {
+                "type": "integer",
+                "description": "累计总收益（分）。"
+              },
+              "share_income_fen": {
+                "type": "integer",
+                "description": "其中分享收益（分）。"
+              }
+            },
+            "required": ["income_fen", "share_income_fen"],
+            "additionalProperties": false
+          },
+          "income_rpm": {
+            "type": "number",
+            "description": "千次阅读单价（元/千读）= income_fen*10/read，read 为 0 时取 0。与 income 同进同出，故不在 required 内。"
+          },
+          "traffic": {
+            "type": ["object", "null"],
+            "description": "平台官方逐日流量；只有最近 DEEP_N=12 篇且累计阅读 >= 30 的篇才有，其余为 null。首日口径的首选来源。注：fetch_traffic() 还会返回一个 click_rate（平台口径点击率），但 examples 里的合成快照只保留了 daily，故 click_rate 列为可选。",
+            "properties": {
+              "click_rate": {
+                "type": ["number", "null"],
+                "description": "平台口径点击率（来自 traffic_analyse 的 total_stat.consume_detail.click_rate）；接口缺字段时为 null。可选：examples 快照里未包含该键。"
+              },
+              "daily": {
+                "type": "array",
+                "description": "逐日一条，按日期升序。",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "date": {
+                      "type": "string",
+                      "description": "该桶日期 YYYY-MM-DD。"
+                    },
+                    "impression": {
+                      "type": ["integer", "null"],
+                      "description": "当日曝光（impression_count）；接口缺该字段时为 null。"
+                    },
+                    "read": {
+                      "type": ["integer", "null"],
+                      "description": "当日阅读（go_detail_count）；接口缺该字段时为 null。"
+                    }
+                  },
+                  "required": ["date", "impression", "read"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["daily"],
+            "additionalProperties": false
+          },
+          "property": {
+            "type": ["object", "null"],
+            "description": "读者画像；只有最近 DEEP_N=12 篇才有，接口失败或未拉到为 null（示例数据里全为 null）。非空时为 4 个分桶对象。",
+            "properties": {
+              "age": {"type": "object", "description": "年龄分桶（键为分桶名，值为样本数）。"},
+              "gender": {"type": "object", "description": "性别分桶。"},
+              "device": {"type": "object", "description": "机型分桶。"},
+              "province": {"type": "object", "description": "省份分桶。"}
+            },
+            "additionalProperties": true
+          },
+          "item_info": {
+            "type": ["object", "null"],
+            "description": "单篇数据卡片；只有最近 DEEP_N=12 篇才有，接口失败为 null。平台暂无数据的数值字段以 -1 占位。",
+            "properties": {
+              "ranking_data": {
+                "type": "object",
+                "description": "同类排名；语义为「超过 N% 同类作品」（-1 = 暂无）。接口可能返回空对象 {}，因此内层 4 个 rank 字段列为属性但不强制。",
+                "properties": {
+                  "click_rate_rank": {"type": "integer", "description": "点击率同类排名。"},
+                  "interaction_rate_rank": {"type": "integer", "description": "互动率同类排名。"},
+                  "read_complete_rate_rank": {"type": "integer", "description": "完读率同类排名。"},
+                  "to_fans_rate_rank": {"type": "integer", "description": "转粉率同类排名。"}
+                },
+                "additionalProperties": false
+              },
+              "read_complete_rate": {
+                "type": ["number", "null"],
+                "description": "完读率；-1 或 null = 暂无数据。"
+              },
+              "read_duration": {
+                "type": ["number", "null"],
+                "description": "平均阅读时长（秒）；-1 或 null = 暂无数据。"
+              },
+              "click_rate_official": {
+                "type": ["number", "null"],
+                "description": "平台口径点击率（小数，如 0.077 = 7.7%）；null = 暂无数据。"
+              }
+            },
+            "required": ["ranking_data", "read_complete_rate", "read_duration", "click_rate_official"],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "item_id",
+          "title",
+          "item_status",
+          "publish_time",
+          "create_time",
+          "read",
+          "show",
+          "digg",
+          "comment",
+          "repin",
+          "show_date",
+          "ctr_calc",
+          "traffic",
+          "property",
+          "item_info"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["date", "articles"],
+  "additionalProperties": false
+}

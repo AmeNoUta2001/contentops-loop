@@ -1,0 +1,2198 @@
+{
+ "date": "2026-01-13",
+ "articles": [
+  {
+   "item_id": "9100000000000000001",
+   "title": "橘猫半夜踩脸，我一夜没睡好",
+   "item_status": 20,
+   "publish_time": 1767565200,
+   "create_time": 1767565200,
+   "read": 107,
+   "show": 2329,
+   "digg": 0,
+   "comment": 1,
+   "repin": 0,
+   "show_date": "2026-01-05",
+   "ctr_calc": 4.59,
+   "income": {
+    "income_fen": 5,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-05",
+      "impression": 1257,
+      "read": 97
+     },
+     {
+      "date": "2026-01-06",
+      "impression": 134,
+      "read": 1
+     },
+     {
+      "date": "2026-01-07",
+      "impression": 134,
+      "read": 1
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 134,
+      "read": 1
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 134,
+      "read": 1
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 134,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 134,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 134,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 134,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.077168
+   }
+  },
+  {
+   "item_id": "9100000000000000002",
+   "title": "养猫三年，我才知道猫砂要这样选",
+   "item_status": 20,
+   "publish_time": 1767608820,
+   "create_time": 1767608820,
+   "read": 73,
+   "show": 2642,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-05",
+   "ctr_calc": 2.76,
+   "income": {
+    "income_fen": 3,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-05",
+      "impression": 1178,
+      "read": 69
+     },
+     {
+      "date": "2026-01-06",
+      "impression": 183,
+      "read": 1
+     },
+     {
+      "date": "2026-01-07",
+      "impression": 183,
+      "read": 1
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 183,
+      "read": 1
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 183,
+      "read": 1
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 183,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 183,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 183,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 183,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.058574
+   }
+  },
+  {
+   "item_id": "9100000000000000003",
+   "title": "遛狗时它突然蹲下不肯走，我陪着等了二十分钟",
+   "item_status": 20,
+   "publish_time": 1767566040,
+   "create_time": 1767566040,
+   "read": 103,
+   "show": 2785,
+   "digg": 2,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-05",
+   "ctr_calc": 3.7,
+   "income": {
+    "income_fen": 5,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-05",
+      "impression": 929,
+      "read": 77
+     },
+     {
+      "date": "2026-01-06",
+      "impression": 232,
+      "read": 3
+     },
+     {
+      "date": "2026-01-07",
+      "impression": 232,
+      "read": 3
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 232,
+      "read": 3
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 232,
+      "read": 3
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 232,
+      "read": 3
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 232,
+      "read": 3
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 232,
+      "read": 3
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 232,
+      "read": 3
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.082885
+   }
+  },
+  {
+   "item_id": "9100000000000000004",
+   "title": "带猫去做绝育，医生说再等一周",
+   "item_status": 20,
+   "publish_time": 1767651600,
+   "create_time": 1767651600,
+   "read": 85,
+   "show": 2273,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-06",
+   "ctr_calc": 3.74,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-06",
+      "impression": 908,
+      "read": 67
+     },
+     {
+      "date": "2026-01-07",
+      "impression": 195,
+      "read": 2
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 195,
+      "read": 2
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 195,
+      "read": 2
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 195,
+      "read": 2
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 195,
+      "read": 2
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 195,
+      "read": 2
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 195,
+      "read": 2
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.073789
+   }
+  },
+  {
+   "item_id": "9100000000000000005",
+   "title": "猫呕吐了三天，去宠物医院花了八百",
+   "item_status": 20,
+   "publish_time": 1767695220,
+   "create_time": 1767695220,
+   "read": 82,
+   "show": 1670,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-06",
+   "ctr_calc": 4.91,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-06",
+      "impression": 949,
+      "read": 65
+     },
+     {
+      "date": "2026-01-07",
+      "impression": 103,
+      "read": 2
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 103,
+      "read": 2
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 103,
+      "read": 2
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 103,
+      "read": 2
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 103,
+      "read": 2
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 103,
+      "read": 2
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 103,
+      "read": 2
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.068493
+   }
+  },
+  {
+   "item_id": "9100000000000000006",
+   "title": "驱虫忘了一个月，我才发现它一直在挠",
+   "item_status": 20,
+   "publish_time": 1767652440,
+   "create_time": 1767652440,
+   "read": 80,
+   "show": 2245,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-06",
+   "ctr_calc": 3.56,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-06",
+      "impression": 775,
+      "read": 72
+     },
+     {
+      "date": "2026-01-07",
+      "impression": 210,
+      "read": 1
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 210,
+      "read": 1
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 210,
+      "read": 1
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 210,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 210,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 210,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 210,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.092903
+   }
+  },
+  {
+   "item_id": "9100000000000000007",
+   "title": "流浪猫在楼下蹲了半个月，我把它带回了家",
+   "item_status": 20,
+   "publish_time": 1767696060,
+   "create_time": 1767696060,
+   "read": 89,
+   "show": 2335,
+   "digg": 0,
+   "comment": 1,
+   "repin": 0,
+   "show_date": "2026-01-06",
+   "ctr_calc": 3.81,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-06",
+      "impression": 837,
+      "read": 79
+     },
+     {
+      "date": "2026-01-07",
+      "impression": 214,
+      "read": 1
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 214,
+      "read": 1
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 214,
+      "read": 1
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 214,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 214,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 214,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 214,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.094385
+   }
+  },
+  {
+   "item_id": "9100000000000000008",
+   "title": "领养代替购买这件事，我改了主意",
+   "item_status": 20,
+   "publish_time": 1767653280,
+   "create_time": 1767653280,
+   "read": 86,
+   "show": 1621,
+   "digg": 0,
+   "comment": 1,
+   "repin": 0,
+   "show_date": "2026-01-06",
+   "ctr_calc": 5.31,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-06",
+      "impression": 865,
+      "read": 69
+     },
+     {
+      "date": "2026-01-07",
+      "impression": 108,
+      "read": 2
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 108,
+      "read": 2
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 108,
+      "read": 2
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 108,
+      "read": 2
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 108,
+      "read": 2
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 108,
+      "read": 2
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 108,
+      "read": 2
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.079769
+   }
+  },
+  {
+   "item_id": "9100000000000000009",
+   "title": "教了半年握手，它只学会了装听不懂",
+   "item_status": 20,
+   "publish_time": 1767738000,
+   "create_time": 1767738000,
+   "read": 35,
+   "show": 746,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-07",
+   "ctr_calc": 4.69,
+   "income": {
+    "income_fen": 1,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-07",
+      "impression": 332,
+      "read": 23
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 69,
+      "read": 2
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 69,
+      "read": 2
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 69,
+      "read": 2
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 69,
+      "read": 2
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 69,
+      "read": 2
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 69,
+      "read": 2
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.069277
+   }
+  },
+  {
+   "item_id": "9100000000000000010",
+   "title": "它啃坏了我第三双鞋，我买了个咬胶",
+   "item_status": 20,
+   "publish_time": 1767781620,
+   "create_time": 1767781620,
+   "read": 42,
+   "show": 1768,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-07",
+   "ctr_calc": 2.38,
+   "income": {
+    "income_fen": 2,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-07",
+      "impression": 430,
+      "read": 38
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 223,
+      "read": 1
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 223,
+      "read": 1
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 223,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 223,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 223,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 223,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.088372
+   }
+  },
+  {
+   "item_id": "9100000000000000011",
+   "title": "老得走不动那阵子，我每天抱它下楼晒太阳",
+   "item_status": 20,
+   "publish_time": 1767738840,
+   "create_time": 1767738840,
+   "read": 40,
+   "show": 1139,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-07",
+   "ctr_calc": 3.51,
+   "income": {
+    "income_fen": 2,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-07",
+      "impression": 305,
+      "read": 18
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 139,
+      "read": 3
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 139,
+      "read": 3
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 139,
+      "read": 3
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 139,
+      "read": 3
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 139,
+      "read": 3
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 139,
+      "read": 3
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.059016
+   }
+  },
+  {
+   "item_id": "9100000000000000012",
+   "title": "买猫爬架之前，建议先量一下沙发到天花板的距离",
+   "item_status": 20,
+   "publish_time": 1767782460,
+   "create_time": 1767782460,
+   "read": 31,
+   "show": 1145,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-07",
+   "ctr_calc": 2.71,
+   "income": {
+    "income_fen": 1,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-07",
+      "impression": 263,
+      "read": 13
+     },
+     {
+      "date": "2026-01-08",
+      "impression": 147,
+      "read": 3
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 147,
+      "read": 3
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 147,
+      "read": 3
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 147,
+      "read": 3
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 147,
+      "read": 3
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 147,
+      "read": 3
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.04943
+   }
+  },
+  {
+   "item_id": "9100000000000000013",
+   "title": "养猫三年，我才知道猫砂要这样选",
+   "item_status": 20,
+   "publish_time": 1767824400,
+   "create_time": 1767824400,
+   "read": 110,
+   "show": 2093,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-08",
+   "ctr_calc": 5.26,
+   "income": {
+    "income_fen": 5,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-08",
+      "impression": 1318,
+      "read": 104
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 155,
+      "read": 1
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 155,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 155,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 155,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 155,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.078907
+   }
+  },
+  {
+   "item_id": "9100000000000000014",
+   "title": "遛狗时它突然蹲下不肯走，我陪着等了二十分钟",
+   "item_status": 20,
+   "publish_time": 1767868020,
+   "create_time": 1767868020,
+   "read": 83,
+   "show": 1540,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-08",
+   "ctr_calc": 5.39,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-08",
+      "impression": 1005,
+      "read": 69
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 107,
+      "read": 2
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 107,
+      "read": 2
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 107,
+      "read": 2
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 107,
+      "read": 2
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 107,
+      "read": 2
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.068657
+   }
+  },
+  {
+   "item_id": "9100000000000000015",
+   "title": "金毛第一次坐电梯，尾巴夹得紧紧的",
+   "item_status": 20,
+   "publish_time": 1767825240,
+   "create_time": 1767825240,
+   "read": 137,
+   "show": 2381,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-08",
+   "ctr_calc": 5.75,
+   "income": {
+    "income_fen": 6,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-08",
+      "impression": 1331,
+      "read": 124
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 210,
+      "read": 2
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 210,
+      "read": 2
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 210,
+      "read": 2
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 210,
+      "read": 2
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 210,
+      "read": 2
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.093163
+   }
+  },
+  {
+   "item_id": "9100000000000000016",
+   "title": "狗子拆家那天，我在门口站了很久",
+   "item_status": 20,
+   "publish_time": 1767868860,
+   "create_time": 1767868860,
+   "read": 84,
+   "show": 2196,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-08",
+   "ctr_calc": 3.83,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-08",
+      "impression": 1086,
+      "read": 78
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 222,
+      "read": 1
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 222,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 222,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 222,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 222,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.071823
+   }
+  },
+  {
+   "item_id": "9100000000000000017",
+   "title": "带猫去做绝育，医生说再等一周",
+   "item_status": 20,
+   "publish_time": 1767826080,
+   "create_time": 1767826080,
+   "read": 118,
+   "show": 2110,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-08",
+   "ctr_calc": 5.59,
+   "income": {
+    "income_fen": 5,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-08",
+      "impression": 1045,
+      "read": 103
+     },
+     {
+      "date": "2026-01-09",
+      "impression": 213,
+      "read": 3
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 213,
+      "read": 3
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 213,
+      "read": 3
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 213,
+      "read": 3
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 213,
+      "read": 3
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.098565
+   }
+  },
+  {
+   "item_id": "9100000000000000018",
+   "title": "流浪猫在楼下蹲了半个月，我把它带回了家",
+   "item_status": 20,
+   "publish_time": 1767910800,
+   "create_time": 1767910800,
+   "read": 50,
+   "show": 1046,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-09",
+   "ctr_calc": 4.78,
+   "income": {
+    "income_fen": 2,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-09",
+      "impression": 646,
+      "read": 45
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 100,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 100,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 100,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 100,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.069659
+   }
+  },
+  {
+   "item_id": "9100000000000000019",
+   "title": "领养代替购买这件事，我改了主意",
+   "item_status": 20,
+   "publish_time": 1767954420,
+   "create_time": 1767954420,
+   "read": 36,
+   "show": 1291,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-09",
+   "ctr_calc": 2.79,
+   "income": {
+    "income_fen": 1,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-09",
+      "impression": 515,
+      "read": 30
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 194,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 194,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 194,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 194,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.058252
+   }
+  },
+  {
+   "item_id": "9100000000000000020",
+   "title": "新猫进门第七天，旧猫终于肯跟它一起睡了",
+   "item_status": 20,
+   "publish_time": 1767911640,
+   "create_time": 1767911640,
+   "read": 74,
+   "show": 1505,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-09",
+   "ctr_calc": 4.92,
+   "income": {
+    "income_fen": 3,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-09",
+      "impression": 609,
+      "read": 59
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 224,
+      "read": 3
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 224,
+      "read": 3
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 224,
+      "read": 3
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 224,
+      "read": 3
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.09688
+   }
+  },
+  {
+   "item_id": "9100000000000000021",
+   "title": "两只猫抢窝，我把猫爬架挪了个位置",
+   "item_status": 20,
+   "publish_time": 1767955260,
+   "create_time": 1767955260,
+   "read": 38,
+   "show": 1254,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-09",
+   "ctr_calc": 3.03,
+   "income": {
+    "income_fen": 1,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-09",
+      "impression": 554,
+      "read": 28
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 175,
+      "read": 2
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 175,
+      "read": 2
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 175,
+      "read": 2
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 175,
+      "read": 2
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.050542
+   }
+  },
+  {
+   "item_id": "9100000000000000022",
+   "title": "教了半年握手，它只学会了装听不懂",
+   "item_status": 20,
+   "publish_time": 1767912480,
+   "create_time": 1767912480,
+   "read": 39,
+   "show": 1090,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-09",
+   "ctr_calc": 3.58,
+   "income": {
+    "income_fen": 1,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-09",
+      "impression": 474,
+      "read": 33
+     },
+     {
+      "date": "2026-01-10",
+      "impression": 154,
+      "read": 1
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 154,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 154,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 154,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.06962
+   }
+  },
+  {
+   "item_id": "9100000000000000023",
+   "title": "买猫爬架之前，建议先量一下沙发到天花板的距离",
+   "item_status": 20,
+   "publish_time": 1767997200,
+   "create_time": 1767997200,
+   "read": 28,
+   "show": 703,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-10",
+   "ctr_calc": 3.98,
+   "income": {
+    "income_fen": 1,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-10",
+      "impression": 343,
+      "read": 24
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 120,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 120,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 120,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.069971
+   }
+  },
+  {
+   "item_id": "9100000000000000024",
+   "title": "猫粮换了三个牌子，它终于肯吃了",
+   "item_status": 20,
+   "publish_time": 1768040820,
+   "create_time": 1768040820,
+   "read": 79,
+   "show": 1536,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-10",
+   "ctr_calc": 5.14,
+   "income": {
+    "income_fen": 3,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-10",
+      "impression": 1035,
+      "read": 73
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 167,
+      "read": 2
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 167,
+      "read": 2
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 167,
+      "read": 2
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.070531
+   }
+  },
+  {
+   "item_id": "9100000000000000025",
+   "title": "橘猫半夜踩脸，我一夜没睡好",
+   "item_status": 20,
+   "publish_time": 1767998040,
+   "create_time": 1767998040,
+   "read": 121,
+   "show": 1733,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-10",
+   "ctr_calc": 6.98,
+   "income": {
+    "income_fen": 6,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-10",
+      "impression": 1298,
+      "read": 116
+     },
+     {
+      "date": "2026-01-11",
+      "impression": 145,
+      "read": 1
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 145,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 145,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.089368
+   }
+  },
+  {
+   "item_id": "9100000000000000026",
+   "title": "金毛第一次坐电梯，尾巴夹得紧紧的",
+   "item_status": 20,
+   "publish_time": 1768083600,
+   "create_time": 1768083600,
+   "read": 57,
+   "show": 1137,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-11",
+   "ctr_calc": 5.01,
+   "income": {
+    "income_fen": 2,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-11",
+      "impression": 833,
+      "read": 51
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 152,
+      "read": 3
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 152,
+      "read": 3
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.061224
+   }
+  },
+  {
+   "item_id": "9100000000000000027",
+   "title": "狗子拆家那天，我在门口站了很久",
+   "item_status": 20,
+   "publish_time": 1768127220,
+   "create_time": 1768127220,
+   "read": 85,
+   "show": 1356,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-11",
+   "ctr_calc": 6.27,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-11",
+      "impression": 1070,
+      "read": 83
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 143,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 143,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.07757
+   }
+  },
+  {
+   "item_id": "9100000000000000028",
+   "title": "带猫去做绝育，医生说再等一周",
+   "item_status": 20,
+   "publish_time": 1768084440,
+   "create_time": 1768084440,
+   "read": 106,
+   "show": 1085,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-11",
+   "ctr_calc": 9.77,
+   "income": {
+    "income_fen": 5,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-11",
+      "impression": 963,
+      "read": 100
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 61,
+      "read": 3
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 61,
+      "read": 3
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.103842
+   }
+  },
+  {
+   "item_id": "9100000000000000029",
+   "title": "猫呕吐了三天，去宠物医院花了八百",
+   "item_status": 20,
+   "publish_time": 1768128060,
+   "create_time": 1768128060,
+   "read": 56,
+   "show": 1082,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-11",
+   "ctr_calc": 5.18,
+   "income": {
+    "income_fen": 2,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-11",
+      "impression": 770,
+      "read": 55
+     },
+     {
+      "date": "2026-01-12",
+      "impression": 156,
+      "read": 1
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 156,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.071429
+   }
+  },
+  {
+   "item_id": "9100000000000000030",
+   "title": "领养代替购买这件事，我改了主意",
+   "item_status": 20,
+   "publish_time": 1768170000,
+   "create_time": 1768170000,
+   "read": 45,
+   "show": 856,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-12",
+   "ctr_calc": 5.26,
+   "income": {
+    "income_fen": 2,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-12",
+      "impression": 628,
+      "read": 45
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 228,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.071656
+   }
+  },
+  {
+   "item_id": "9100000000000000031",
+   "title": "新猫进门第七天，旧猫终于肯跟它一起睡了",
+   "item_status": 20,
+   "publish_time": 1768213620,
+   "create_time": 1768213620,
+   "read": 36,
+   "show": 601,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-12",
+   "ctr_calc": 5.99,
+   "income": {
+    "income_fen": 1,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-12",
+      "impression": 469,
+      "read": 36
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 132,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.076759
+   }
+  },
+  {
+   "item_id": "9100000000000000032",
+   "title": "两只猫抢窝，我把猫爬架挪了个位置",
+   "item_status": 20,
+   "publish_time": 1768170840,
+   "create_time": 1768170840,
+   "read": 36,
+   "show": 687,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-12",
+   "ctr_calc": 5.24,
+   "income": {
+    "income_fen": 1,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-12",
+      "impression": 468,
+      "read": 35
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 219,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.074786
+   }
+  },
+  {
+   "item_id": "9100000000000000033",
+   "title": "教了半年握手，它只学会了装听不懂",
+   "item_status": 20,
+   "publish_time": 1768214460,
+   "create_time": 1768214460,
+   "read": 44,
+   "show": 606,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-12",
+   "ctr_calc": 7.26,
+   "income": {
+    "income_fen": 2,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": {
+    "daily": [
+     {
+      "date": "2026-01-12",
+      "impression": 452,
+      "read": 43
+     },
+     {
+      "date": "2026-01-13",
+      "impression": 154,
+      "read": 1
+     }
+    ]
+   },
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.095133
+   }
+  },
+  {
+   "item_id": "9100000000000000034",
+   "title": "买猫爬架之前，建议先量一下沙发到天花板的距离",
+   "item_status": 20,
+   "publish_time": 1768256400,
+   "create_time": 1768256400,
+   "read": 22,
+   "show": 266,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-13",
+   "ctr_calc": 8.27,
+   "income": {
+    "income_fen": 1,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": null,
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.086262
+   }
+  },
+  {
+   "item_id": "9100000000000000035",
+   "title": "猫粮换了三个牌子，它终于肯吃了",
+   "item_status": 20,
+   "publish_time": 1768300020,
+   "create_time": 1768300020,
+   "read": 96,
+   "show": 1088,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-13",
+   "ctr_calc": 8.82,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": null,
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.088281
+   }
+  },
+  {
+   "item_id": "9100000000000000036",
+   "title": "橘猫半夜踩脸，我一夜没睡好",
+   "item_status": 20,
+   "publish_time": 1768257240,
+   "create_time": 1768257240,
+   "read": 80,
+   "show": 942,
+   "digg": 0,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-13",
+   "ctr_calc": 8.49,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": null,
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.085663
+   }
+  },
+  {
+   "item_id": "9100000000000000037",
+   "title": "养猫三年，我才知道猫砂要这样选",
+   "item_status": 20,
+   "publish_time": 1768300860,
+   "create_time": 1768300860,
+   "read": 68,
+   "show": 976,
+   "digg": 2,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-13",
+   "ctr_calc": 6.97,
+   "income": {
+    "income_fen": 3,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": null,
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.070496
+   }
+  }
+ ]
+}

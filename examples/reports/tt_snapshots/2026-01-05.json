@@ -1,0 +1,101 @@
+{
+ "date": "2026-01-05",
+ "articles": [
+  {
+   "item_id": "9100000000000000001",
+   "title": "橘猫半夜踩脸，我一夜没睡好",
+   "item_status": 20,
+   "publish_time": 1767565200,
+   "create_time": 1767565200,
+   "read": 82,
+   "show": 1068,
+   "digg": 0,
+   "comment": 1,
+   "repin": 0,
+   "show_date": "2026-01-05",
+   "ctr_calc": 7.68,
+   "income": {
+    "income_fen": 4,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": null,
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.077168
+   }
+  },
+  {
+   "item_id": "9100000000000000002",
+   "title": "养猫三年，我才知道猫砂要这样选",
+   "item_status": 20,
+   "publish_time": 1767608820,
+   "create_time": 1767608820,
+   "read": 58,
+   "show": 1001,
+   "digg": 1,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-05",
+   "ctr_calc": 5.79,
+   "income": {
+    "income_fen": 2,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": null,
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.058574
+   }
+  },
+  {
+   "item_id": "9100000000000000003",
+   "title": "遛狗时它突然蹲下不肯走，我陪着等了二十分钟",
+   "item_status": 20,
+   "publish_time": 1767566040,
+   "create_time": 1767566040,
+   "read": 65,
+   "show": 789,
+   "digg": 2,
+   "comment": 0,
+   "repin": 0,
+   "show_date": "2026-01-05",
+   "ctr_calc": 8.24,
+   "income": {
+    "income_fen": 3,
+    "share_income_fen": 0
+   },
+   "income_rpm": 0.5,
+   "traffic": null,
+   "property": null,
+   "item_info": {
+    "ranking_data": {
+     "click_rate_rank": 10,
+     "interaction_rate_rank": -1,
+     "read_complete_rate_rank": -1,
+     "to_fans_rate_rank": -1
+    },
+    "read_complete_rate": -1,
+    "read_duration": -1,
+    "click_rate_official": 0.082885
+   }
+  }
+ ]
+}

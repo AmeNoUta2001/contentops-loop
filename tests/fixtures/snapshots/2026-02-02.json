@@ -1,0 +1,54 @@
+{
+ "date": "2026-02-02",
+ "articles": [
+  {
+   "item_id": "1001",
+   "title": "橘猫半夜踩脸睡不好",
+   "item_status": 20,
+   "publish_time": 1769896800,
+   "show_date": "2026-02-01",
+   "show": 450,
+   "read": 33,
+   "ctr_calc": 7.33,
+   "traffic": {
+    "daily": [
+     {"date": "2026-02-01", "impression": 350, "read": 28},
+     {"date": "2026-02-02", "impression": 50, "read": 2}
+    ]
+   }
+  },
+  {
+   "item_id": "1002",
+   "title": "猫砂要这样选才对",
+   "item_status": 20,
+   "publish_time": 1769925600,
+   "show_date": "2026-02-01",
+   "show": 520,
+   "read": 42,
+   "ctr_calc": 8.08,
+   "traffic": null
+  },
+  {
+   "item_id": "1003",
+   "title": "猫粮换牌子终于肯吃",
+   "item_status": 20,
+   "publish_time": 1769896800,
+   "show_date": "2026-02-01",
+   "show": 210,
+   "read": 13,
+   "ctr_calc": 6.19,
+   "traffic": null
+  },
+  {
+   "item_id": "1004",
+   "title": "狗子拆家那天我站了很久",
+   "item_status": 20,
+   "publish_time": 1769983200,
+   "show_date": "2026-02-02",
+   "show": 900,
+   "read": 80,
+   "ctr_calc": 8.89,
+   "traffic": null
+  }
+ ]
+}
